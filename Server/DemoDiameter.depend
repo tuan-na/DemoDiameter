@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1449420698 source:/home/tuanna/code/DemoDiameter/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1450040785 source:/home/tuanna/code/DemoDiameter/NIOQueueServer.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<unistd.h>
+	<sys/epoll.h>
+	<fcntl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<errno.h>
+	"diameter_queue_input.h"
+	<pthread.h>
+	"utility.h"
+	<string.h>
+	"server_threadhold.h"
+
+1450026989 /home/tuanna/code/DemoDiameter/diameter_queue_input.h
+	<stddef.h>
+	<string.h>
+
+1449976234 source:/home/tuanna/code/DemoDiameter/diameter_queue_input.c
+	"diameter_queue_input.h"
+
+1449674766 source:/home/tuanna/code/DemoDiameter/input_processor.c
+
+1449916793 /home/tuanna/code/DemoDiameter/utility.h
+	<sys/time.h>
+
+1450039047 source:/home/tuanna/code/DemoDiameter/utility.c
+	"utility.h"
+
+1450032449 /home/tuanna/code/DemoDiameter/server_threadhold.h
+	<pthread.h>
+	"utility.h"
+
+1450030787 source:/home/tuanna/code/DemoDiameter/monitor_transaction.c
+	"monitor_transaction.h"
+
+1450030825 /home/tuanna/code/DemoDiameter/monitor_transaction.h
+	<pthread.h>
+	"utility.h"
+	"server_threadhold.h"
+
+1450030603 source:/home/tuanna/code/DemoDiameter/server_threadhold.c
+	"server_threadhold.h"
+
