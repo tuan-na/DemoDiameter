@@ -39,12 +39,10 @@ struct d_queue_data pop_from_queue(struct d_queue *q){
     return x;
 }
 
-int check_and_push(int efd, char buf[], int count, struct d_queue *q){
+int check_and_push(int efd, base_receive* in_rev, int count, struct d_queue *q){
     if(count == 0) return -1;
-    int value = atoi(buf);
     struct d_queue_data data;
-    data.buf = (char*) calloc(1, strlen(buf));
-    strcpy(data.buf, buf);
+    data.rev = in_rev;
     data.efd = efd;
     push_in_queue(q, data);
     return 0;

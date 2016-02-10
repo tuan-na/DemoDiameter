@@ -17,6 +17,7 @@
 				</Compiler>
 				<Linker>
 					<Add option="-pthread" />
+					<Add option="-lxml2" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -29,15 +30,46 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-pthread" />
+					<Add option="-lxml2" />
 				</Linker>
+			</Target>
+			<Target title="client">
+				<Option output="bin/client/DemoDiameter" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/client/" />
+				<Option object_output="obj/client/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="/usr/include/libxml2" />
 		</Compiler>
 		<Unit filename="NIOQueueServer.c">
 			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
 		</Unit>
+		<Unit filename="conf/dictionary_reader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conf/dictionary_reader.h" />
+		<Unit filename="datastruct/hashmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="datastruct/hashmap.h" />
+		<Unit filename="datastruct/hashmapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="datastruct/hashmapi.h" />
+		<Unit filename="datastruct/vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="datastruct/vector.h" />
 		<Unit filename="diameter_queue_input.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -46,6 +78,22 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="input_processor.h" />
+		<Unit filename="message/base_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="message/base_message.h" />
+		<Unit filename="message/base_receive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="message/base_receive.h" />
+		<Unit filename="message_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="message_data.h" />
+		<Unit filename="packet_process.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="packet_process.h" />
 		<Unit filename="server_threadhold.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -54,6 +102,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="utility.h" />
+		<Unit filename="utility_gen_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utility_gen_message.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

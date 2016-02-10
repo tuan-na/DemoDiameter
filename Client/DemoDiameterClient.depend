@@ -1,0 +1,218 @@
+# depslib dependency file v1.0
+1454256995 source:/home/tuanna/code/DemoDiameter/conf/dictionary_reader.c
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xpath.h>
+	<libxml/parser.h>
+	<libxml/tree.h>
+	"dictionary_reader.h"
+	<string.h>
+
+1452799186 /usr/include/libxml2/libxml/xpath.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/hash.h>
+
+1452799186 /usr/include/libxml2/libxml/xmlversion.h
+	<libxml/xmlexports.h>
+	<ansidecl.h>
+
+1452799186 /usr/include/libxml2/libxml/xmlexports.h
+
+1452799186 /usr/include/libxml2/libxml/xmlerror.h
+	<libxml/parser.h>
+
+1452799186 /usr/include/libxml2/libxml/parser.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+	<libxml/hash.h>
+	<libxml/valid.h>
+	<libxml/entities.h>
+	<libxml/xmlerror.h>
+	<libxml/xmlstring.h>
+	<libxml/encoding.h>
+	<libxml/xmlIO.h>
+	<libxml/globals.h>
+
+1452799186 /usr/include/libxml2/libxml/tree.h
+	<stdio.h>
+	<limits.h>
+	<libxml/xmlversion.h>
+	<libxml/xmlstring.h>
+	<libxml/xmlregexp.h>
+	<libxml/xmlmemory.h>
+
+1452799186 /usr/include/libxml2/libxml/xmlstring.h
+	<stdarg.h>
+	<libxml/xmlversion.h>
+
+1452799186 /usr/include/libxml2/libxml/xmlregexp.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/dict.h>
+
+1452799186 /usr/include/libxml2/libxml/dict.h
+	<limits.h>
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1452799186 /usr/include/libxml2/libxml/xmlmemory.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/threads.h>
+	<libxml/globals.h>
+
+1452799186 /usr/include/libxml2/libxml/threads.h
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+
+1452799186 /usr/include/libxml2/libxml/globals.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xmlerror.h>
+	<libxml/SAX.h>
+	<libxml/SAX2.h>
+	<libxml/xmlmemory.h>
+	<libxml/threads.h>
+
+1452799186 /usr/include/libxml2/libxml/SAX.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1452799186 /usr/include/libxml2/libxml/xlink.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1452799186 /usr/include/libxml2/libxml/SAX2.h
+	<stdio.h>
+	<stdlib.h>
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/xlink.h>
+
+1452799186 /usr/include/libxml2/libxml/hash.h
+	<libxml/xmlversion.h>
+	<libxml/parser.h>
+	<libxml/dict.h>
+
+1452799186 /usr/include/libxml2/libxml/valid.h
+	<libxml/xmlversion.h>
+	<libxml/xmlerror.h>
+	<libxml/tree.h>
+	<libxml/list.h>
+	<libxml/xmlautomata.h>
+	<libxml/xmlregexp.h>
+
+1452799186 /usr/include/libxml2/libxml/list.h
+	<libxml/xmlversion.h>
+
+1452799186 /usr/include/libxml2/libxml/xmlautomata.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+	<libxml/xmlregexp.h>
+
+1452799186 /usr/include/libxml2/libxml/entities.h
+	<libxml/xmlversion.h>
+	<libxml/tree.h>
+
+1452799186 /usr/include/libxml2/libxml/encoding.h
+	<libxml/xmlversion.h>
+	<iconv.h>
+	<unicode/ucnv.h>
+	<libxml/tree.h>
+
+1452799186 /usr/include/libxml2/libxml/xmlIO.h
+	<stdio.h>
+	<libxml/xmlversion.h>
+	<libxml/globals.h>
+	<libxml/tree.h>
+	<libxml/parser.h>
+	<libxml/encoding.h>
+
+1453524342 /home/tuanna/code/DemoDiameter/conf/dictionary_reader.h
+	"../datastruct/hashmap.h"
+	"../datastruct/vector.h"
+	"../message_data.h"
+
+1452451153 /home/tuanna/code/DemoDiameter/datastruct/hashmap.h
+
+1454265392 /home/tuanna/code/DemoDiameter/datastruct/vector.h
+
+1454255082 /home/tuanna/code/DemoDiameter/message_data.h
+	"datastruct/hashmap.h"
+	"stdlib.h"
+	"string.h"
+	"datastruct/vector.h"
+
+1455037288 source:/home/tuanna/code/DemoDiameterClient/main.c
+	<stdio.h>
+	<stdlib.h>
+	"../DemoDiameter/conf/dictionary_reader.h"
+	<pthread.h>
+	<unistd.h>
+	<sys/epoll.h>
+	<fcntl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<errno.h>
+	"../DemoDiameter/message/base_receive.h"
+	<sys/time.h>
+
+1452451147 source:/home/tuanna/code/DemoDiameter/datastruct/hashmap.c
+	"hashmap.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1454256403 source:/home/tuanna/code/DemoDiameter/datastruct/hashmapi.c
+	<stdlib.h>
+	<stdio.h>
+	"hashmapi.h"
+
+1452451093 /home/tuanna/code/DemoDiameter/datastruct/hashmapi.h
+	"hashmap.h"
+
+1454959095 source:/home/tuanna/code/DemoDiameter/datastruct/vector.c
+	<stdio.h>
+	<stdlib.h>
+	"vector.h"
+
+1453176253 source:/home/tuanna/code/DemoDiameter/message_data.c
+	"message_data.h"
+
+1454961513 source:/home/tuanna/code/DemoDiameter/message/base_message.c
+	"base_message.h"
+
+1454948489 /home/tuanna/code/DemoDiameter/message/base_message.h
+	"../message_data.h"
+	"../datastruct/hashmap.h"
+	"../datastruct/hashmapi.h"
+	<string.h>
+	"../conf/dictionary_reader.h"
+	"../datastruct/vector.h"
+	"../utility_gen_message.h"
+
+1453551003 /home/tuanna/code/DemoDiameter/utility_gen_message.h
+	"conf/dictionary_reader.h"
+
+1454950672 source:/home/tuanna/code/DemoDiameter/message/base_receive.c
+	"base_receive.h"
+
+1454863968 /home/tuanna/code/DemoDiameter/message/base_receive.h
+	"../message_data.h"
+	"../datastruct/vector.h"
+	"base_message.h"
+	"../conf/dictionary_reader.h"
+
+1454961483 source:/home/tuanna/code/DemoDiameter/utility_gen_message.c
+	"utility_gen_message.h"
+	"message/base_message.h"
+

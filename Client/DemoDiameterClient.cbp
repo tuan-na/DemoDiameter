@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DemoDiameterClient" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DemoDiameterClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/usr/include/libxml2" />
+				</Compiler>
+				<Linker>
+					<Add option="-pthread" />
+					<Add option="-lxml2" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DemoDiameterClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../DemoDiameter/conf/dictionary_reader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/conf/dictionary_reader.h" />
+		<Unit filename="../DemoDiameter/datastruct/hashmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/datastruct/hashmap.h" />
+		<Unit filename="../DemoDiameter/datastruct/hashmapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/datastruct/hashmapi.h" />
+		<Unit filename="../DemoDiameter/datastruct/vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/datastruct/vector.h" />
+		<Unit filename="../DemoDiameter/message/base_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/message/base_message.h" />
+		<Unit filename="../DemoDiameter/message/base_receive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/message/base_receive.h" />
+		<Unit filename="../DemoDiameter/message_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/message_data.h" />
+		<Unit filename="../DemoDiameter/utility_gen_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../DemoDiameter/utility_gen_message.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

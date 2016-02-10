@@ -1,0 +1,5 @@
+<server>
+	<maxTPS value="50"/>
+	<messageSendPerSec value="5"/>
+	<messageKeepConnectPerSec value = "0.2"/>
+</server>
